@@ -1,0 +1,183 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.gridbox {
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.first {
+  width: 480px;
+  background-color: white;
+  float: left;
+  border-radius: 3px;
+  padding-left: 20px;
+  color: hsl(204, 2%, 46%);
+}
+
+.second {
+  float: left;
+
+  width: 230px;
+  height: 225px;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 3px;
+  padding-left: 20px;
+  color: white;
+}
+.third {
+  float: left;
+  width: 250px;
+  height: 225px;
+  border-radius: 3px;
+  background-color: hsl(178, 53%, 51%);
+  color: white;
+  font-size: 13px;
+}
+.heading {
+  color: hsl(179, 68%, 36%);
+  margin-bottom: 20px;
+}
+.policy {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+}
+.para {
+  font-size: px;
+}
+.price-box {
+  display: flex;
+}
+.signup-button {
+  width: 200px;
+  height: 30px;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 4px;
+  height: 35px;
+  font-size: 16px;
+  color: white;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.signup-button:active {
+  box-shadow: none;
+}
+.signup-button:hover {
+  background-color: hsl(72, 68%, 55%);
+}
+.subscription {
+  padding-top: 7px;
+}
+.boxof29 {
+  float: left;
+  padding-bottom: 0px;
+}
+.dollor29 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.boxoffull {
+  float: left;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.boxofmonth {
+  float: left;
+  padding-bottom: 0px;
+}
+.month {
+  margin-top: 28px;
+  margin-left: 10px;
+  color: lightgrey;
+  margin-bottom: 0px;
+}
+.full {
+  color: lightgray;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.boxofwhy {
+  margin-left: 40px;
+}
+.Why {
+  padding-top: 15px;
+}
+.content {
+  padding-right: 95px;
+  padding-top: 7px;
+  color: lightgrey;
+}
+.mobilescr{
+  visibility: collapse;
+  margin:auto;
+  width:70%;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.mbfirst {
+  width: 230px;
+  background-color: white;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-bottom:0;
+  color: hsl(204, 2%, 46%);
+}
+.mbsecond {
+   
+
+  width: 230px;
+  height: 225px;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 0px;
+}
+.mbthird {
+   
+  width: 250px;
+  height: 225px;
+  border-radius: 3px;
+  background-color: hsl(178, 53%, 51%);
+  color: white;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+
+@media only screen and (max-width: 375px){
+.gridbox{
+  visibility: collapse;
+
+}
+.mobilescr{
+  visibility: visible;
+}
+.Why {
+  margin-top:0;
+  font-size: large;
+}
+.subscription {
+  margin-top: 0;
+  padding-top:20px;
+}
+.para{
+  margin-bottom: 0;
+}
+.content{
+  font-size:15px;
+  padding-right: 30px;
+}
+}
+  
+ 
